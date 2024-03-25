@@ -7,31 +7,34 @@ body {
     margin: 8;
     background: rgb(28, 28, 28);
     background-image: linear-gradient(rgb(14, 14, 18), rgb(38, 39, 50), rgb(14, 14, 18));
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 20;
     text-align: center;
     color: whitesmoke;
 }
 
 h1 {
-    margin-top: 80px;
+    margin-top: 20px;
     text-align: left;
     word-wrap:break-word;
-    max-width: 800px;
+    max-width: 600px;
 }
 
 h1:after {
     content: " ";
     background: #3e3e49;
-    width: 800px;
+    width: 600px;
     height: 1px;
     display: block;
 }
 
 p {
+    font-size: 20px;
+    max-width: 600px;
     color: #d0d0d0;
     text-align: left;
     word-wrap:break-word;
-    max-width: 800px;
 }
 
 p1 {
@@ -53,8 +56,8 @@ img {
 
 .social a{
     font-size: 30px;
-    color: whitesmoke;
-    filter: drop-shadow(0 0 0.2rem rgba(0, 255, 221, 0));
+    color: rgb(245, 245, 245);
+    filter: drop-shadow(0 0 0.2rem rgb(0, 242, 255));
     padding: 5px;
     margin: 5px;
     display: inline-block;
@@ -63,17 +66,18 @@ img {
     -moz-transition: background-color 0.5s ease-in, color 0.5s ease-in, filter 0.5s ease-in;
     -ms-transition: background-color 0.5s ease-in, color 0.5s ease-in, filter 0.5s ease-in;
     -o-transition: background-color 0.5s ease-in, color 0.5s ease-in, filter 0.5s ease-in;
-    -webkit-filter: drop-shadow(0 0 0.2rem rgba(0, 255, 221, 0));
+    -webkit-filter: drop-shadow(0 0 0.2rem rgb(0, 242, 255));
 }
 
 .social a:hover {
-    filter: drop-shadow(0 0 0.3rem yellow);
+    color: whitesmoke;
+    filter: drop-shadow(0 0 0.5rem rgb(0, 242, 255));
     transition: background-color 0.5s ease-out, color 0.5s ease-out, filter 0.5s ease-out;
     -webkit-transition: background-color 0.5s ease-out, color 0.5s ease-out, filter 0.5s ease-out;
     -moz-transition: background-color 0.5s ease-out, color 0.5s ease-out, filter 0.5s ease-out;
     -ms-transition: background-color 0.5s ease-out, color 0.5s ease-out, filter 0.5s ease-out;
     -o-transition: background-color 0.5s ease-out, color 0.5s ease-out, filter 0.5s ease-out;
-    -webkit-filter: drop-shadow(0 0 0.3rem yellow);
+    -webkit-filter: drop-shadow(0 0 0.5rem rgb(0, 242, 255));
 }
 
 footer {
