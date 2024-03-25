@@ -15,26 +15,29 @@ body {
 }
 
 h1 {
-    margin-top: 20px;
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
     text-align: left;
     word-wrap:break-word;
-    max-width: 600px;
+    width: 90%;
 }
 
 h1:after {
     content: " ";
     background: #3e3e49;
-    width: 600px;
-    height: 1px;
+    width: 90%;
+    height: 0.2%;
     display: block;
 }
 
 p {
     font-size: 20px;
-    max-width: 600px;
+    max-width: 70%;
     color: #d0d0d0;
     text-align: left;
-    word-wrap:break-word;
+    word-wrap:inherit;
+    display: block;
 }
 
 p1 {
@@ -43,19 +46,19 @@ p1 {
 }
 
 img {
-    max-width: 400px;
+    max-width: 40%;
 }
 
 -- Social Icons --
 .social {
-    padding: 15px;
-    margin: 5px;
+    padding: 15%;
+    margin: 5%;
     position: relative;
     overflow: hidden;
 }
 
 .social a{
-    font-size: 30px;
+    font-size: 150%;
     color: rgb(245, 245, 245);
     filter: drop-shadow(0 0 0.2rem rgb(0, 242, 255));
     padding: 5px;
@@ -81,10 +84,9 @@ img {
 }
 
 footer {
-    margin: 50px;
+    margin: 10%;
     display: flex;
     justify-content: center;
-    padding: 20px;
     background-color: #0a0b0e00;
     color: #fff;
 }
@@ -92,14 +94,14 @@ footer {
 .btn {
     color: yellow;
     text-decoration: none;
-    padding: 0.5rem;
-    border: 1px solid #fffb00;
-    border-radius: 20px;
+    padding: 0.5em;
+    border: 0.1em solid #fffb00;
+    border-radius: 20em;
     background-color: rgba(27, 29, 37, 0);
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+    -webkit-border-radius: 20em;
+    -moz-border-radius: 20em;
+    -ms-border-radius: 20em;
+    -o-border-radius: 20em;
     filter: drop-shadow(0 0 0.3rem yellow);
     -webkit-filter: drop-shadow(0 0 0.3rem yellow);
 }
