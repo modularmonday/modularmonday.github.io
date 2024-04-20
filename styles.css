@@ -3,6 +3,10 @@
     src: url(fonts/bebas_neue/BebasNeue-Regular.ttf); /*URL to font*/
 }
 
+:root {
+    
+}
+
 body {
     margin: 8;
     background: rgb(28, 28, 28);
@@ -16,25 +20,29 @@ body {
 }
 
 h1 {
-    margin-top: 4%;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 1000px;
     text-align: left;
-    word-wrap:break-word;
-    width: 70%;
+    word-wrap:inherit;
+    display: block;
 }
 
 h1:after {
     content: "";
     background: #3e3e49;
-    width: 100%;
-    height: 0.2%;
+    word-wrap:inherit;
+    max-width: 1000px;
+    height: 0.25%;
     display: block;
 }
 
 p {
+    margin-left: 25px;
+    margin-right: 25px;
     font-size: 20px;
-    max-width: 70%;
+    max-width: 1000px;
     color: #d0d0d0;
     text-align: left;
     word-wrap:inherit;
@@ -53,7 +61,7 @@ li {
     color: #d0d0d0;
     font-size: 20px;
     text-align: left;
-    max-width: 70%;
+    max-width: 1000px;
 }
 
 img {
