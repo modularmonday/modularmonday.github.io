@@ -4,7 +4,7 @@
 }
 
 :root {
-    --main-max-width: 1000px;
+    --main-max-width: 600px;
 }
 
 body {
@@ -23,7 +23,7 @@ h1 {
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
-    max-width: 1000px;
+    max-width: var(--main-max-width);
     text-align: left;
     word-wrap:inherit;
     display: block;
@@ -33,7 +33,7 @@ h1:after {
     content: "";
     background: #3e3e49;
     word-wrap:inherit;
-    max-width: 1000px;
+    max-width: var(--main-max-width);
     height: 0.25%;
     display: block;
 }
@@ -42,7 +42,7 @@ p {
     margin-left: 25px;
     margin-right: 25px;
     font-size: 20px;
-    max-width: 1000px;
+    max-width: var(--main-max-width);
     color: #d0d0d0;
     text-align: left;
     word-wrap:inherit;
@@ -61,14 +61,13 @@ li {
     color: #d0d0d0;
     font-size: 20px;
     text-align: left;
-    max-width: 1000px;
+    max-width: var(--main-max-width);
 }
 
 img {
     width: 100%;
     height: 20%;
     object-fit:scale-down;
-
 }
 
 -- Social Icons --
@@ -106,12 +105,18 @@ img {
     -webkit-filter: drop-shadow(0 0 0.5rem rgb(0, 242, 255));
 }
 
-footer {
-    margin: 0%;
-    display: flex;
-    justify-content: center;
-    background-color: #0a0b0e00;
-    color: #fff;
+.QRCode {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    width: 100%;
+    height: 20%;
+    object-fit:scale-down;
+
+}
+
+p3 {
+    padding-bottom: 50px;
+    text-align: center;
 }
 
 .btn {
